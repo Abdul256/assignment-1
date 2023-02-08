@@ -1,0 +1,48 @@
+---
+title: "ssss"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only
+
+```{r}
+install.packages("tidyverse")      # data manipulation and visualization
+library(lubridate)      # easily work with dates and times
+install.packages("fpp2")           # working with time series data
+library(zoo)            # working with time series data)
+
+
+
+
+#calculate 12-month rolling average 
+
+```
+
+```{r}
+ df1 %>%
+  mutate_at(vars(V3, V4, V5), ~as.numeric(.))
+ str(df1)
+ 
+```
+
+output is displayed).
